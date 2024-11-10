@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/infilon-practicle/static/css/main.1730c108.css",
+    "main.js": "/infilon-practicle/static/js/main.18eebdde.js",
+    "static/media/hero-element.png": "/infilon-practicle/static/media/hero-element.d90047a4828a74982c87.png",
+    "static/media/Image-container.png": "/infilon-practicle/static/media/Image-container.4d4a9fca38b5e2fc8918.png",
+    "static/media/BACKGROUND.png": "/infilon-practicle/static/media/BACKGROUND.0ff8fae9f9b3e6209f6a.png",
+    "index.html": "/infilon-practicle/index.html",
+    "main.1730c108.css.map": "/infilon-practicle/static/css/main.1730c108.css.map",
+    "main.18eebdde.js.map": "/infilon-practicle/static/js/main.18eebdde.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1730c108.css",
+    "static/js/main.18eebdde.js"
+  ]
+}
