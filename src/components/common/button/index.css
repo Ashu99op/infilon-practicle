@@ -1,0 +1,37 @@
+.btn {
+    padding: 20px 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-content>span {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.btn-content>img {
+    height: 14px;
+    width: 14px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .btn-content>span {
+        line-height: 30px;
+    }
+}

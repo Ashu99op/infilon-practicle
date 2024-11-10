@@ -1,0 +1,95 @@
+.pricing-container {
+    padding: 140px 220px 140px 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-container>h1 {
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87.14px;
+    letter-spacing: -0.02em;
+    color: #212529;
+    position: relative;
+    z-index: 9;
+    text-align: center;
+}
+
+.pricing-container>h1>img {
+    position: absolute;
+    right: 0px;
+    bottom: 90px;
+    width: 314.03px;
+    height: 23.96px;
+    bottom: 0%;
+    z-index: -1;
+}
+
+.pricing-container>p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #212529;
+    text-align: center;
+}
+
+.pricing-tabs {
+    margin-top: 60px;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .pricing-container {
+        padding: 140px 32px;
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    .pricing-container>h1 {
+        font-size: 64px;
+        line-height: 77.45px;
+    }
+
+    .pricing-container>h1>img {
+        width: 304px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pricing-container {
+        padding: 140px 20px;
+    }
+
+    .pricing-container>h1 {
+        font-size: 54px;
+        line-height: 65.35px;
+    }
+
+    .pricing-container>h1>img {
+        width: 247px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .pricing-container {
+        padding: 100px 16px 140px 16px;
+    }
+
+    .pricing-container>h1 {
+        font-size: 36px;
+        line-height: 43.57px;
+    }
+
+    .pricing-container>h1>img {
+        width: 304px;
+        right: -15px;
+    }
+}

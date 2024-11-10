@@ -1,0 +1,126 @@
+.price-box {
+    background: white;
+    border-radius: 12px;
+    padding: 32px;
+    flex: 1;
+    max-width: 380px;
+    border: 1px solid #FFE492;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+  }
+  
+  .price-box.highlighted {
+    background: #002B78;
+    color: white;
+    border: none;
+  }
+  
+  .price-box-header h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .price-box-header .price {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .price-box-header p {
+    color: #666;
+    margin-bottom: 24px;
+  }
+  
+  .highlighted .price-box-header p {
+    color: #fff;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  .features-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+  
+  .check-icon {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    color: #4CAF50;
+  }
+  
+  .highlighted .check-icon {
+    color: #fff;
+  }
+  
+  .get-started-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #FFE492;
+    color: #002B78;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 24px;
+    transition: background 0.3s;
+  }
+  
+  .highlighted .get-started-btn {
+    background: #2D7FF9;
+    border: none;
+    color: white;
+  }
+  
+  .get-started-btn:hover {
+    background: #d0d4e4;
+  }
+  
+  .highlighted .get-started-btn:hover {
+    background: #1b6fe0;
+  }
+  
+  @media screen and (max-width: 1440px) {
+    .price-box {
+      padding: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 1152px) {
+    .price-box {
+      max-width: 340px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .price-box {
+      max-width: 100%;
+      width: 100%;
+    }
+    
+    .price-box-header h3 {
+      font-size: 20px;
+    }
+    
+    .price-box-header .price {
+      font-size: 32px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .price-box {
+      padding: 16px;
+    }
+    
+    .features-list li {
+      font-size: 14px;
+    }
+  }
